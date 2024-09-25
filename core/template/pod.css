@@ -1,0 +1,233 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #69ff05;
+}
+
+header {
+    background-color: #000000;
+    color: rgb(66, 255, 3);
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    text-shadow: 0 0 10px  #00ff11,
+                 0 0 20px #000000,
+                 0 0 40px #050505,
+                 0 0 80px #04f92d;
+}
+
+nav a {
+    color: rgb(97, 253, 0);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero {
+    background-image: url('FACULDADE/Vídeo do WhatsApp de 2024-09-20 à(s) 12.17.08_067c65e3.mp4'); /* Insira aqui o link da imagem */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 33px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fffefc;
+    text-shadow: 0 0 10px  #04ff15,
+                 0 0 20px #000000,
+                 0 0 40px #050505,
+                 0 0 80px #04f92d;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 30px;
+    justify-content: center;
+}
+
+.event-item {
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 12px rgba(46, 244, 6, 0.974);
+    border-style: ridge;
+    border-color: #00f904;
+    width: 350px;
+    text-align: center;
+}
+
+.event-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.event-item h3 {
+    font-size: 1.5em;
+    margin-top: 12px;
+}
+
+.event-item p {
+    color: #eaecea;
+}
+
+footer {
+    background-color: #004d00;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+/* Estilo da área de notícias */
+.news-section {
+    margin-top: 40px;
+}
+
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.news-item {
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 12px rgba(46, 244, 6, 0.974);
+    border-style: ridge;
+    border-color: #00f904;
+    width: 350px;
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.news-item h3 {
+    font-size: 1.4em;
+    margin-top: 12px;
+}
+
+.news-item p {
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+.podcast-section {
+margin-top: 35px;
+text-align: center;
+}
+
+.podcast-player {
+margin: 20px auto;
+box-shadow: 0px 1px 12px rgba(46, 244, 6, 0.974);
+border-radius: 10px;
+overflow: hidden;
+max-width: 560px;
+border: #11f705;
+border-style: ridge;
+}
+
+.podcast-section p {
+color: #ffffff;
+font-size: 1.2em;
+margin-top: 20px;
+text-shadow: 0 0 10px #00f904,
+0 0 10px #020202,
+0 0 10px #ffffff,
+0 0 10px #ffffff;
+}
+
+.about-section {
+    background-color: #080808;
+    padding: 35px 20px;
+    margin-top: 70px;
+    text-align: center;
+    box-shadow: 0px 1px 12px rgba(46, 244, 6, 0.974);
+    border-color: #04ed2b;
+    border-style: ridge;
+    border-block-width: 1px;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: auto;
+    color: #fefefe;
+    font-size: 1.2em;
+}
+
+.contact-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    box-shadow: 0px 1px 15px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #000000;
+    box-shadow: 0px 1px 12px rgb(38, 230, 0);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #003300;
+}
